@@ -1,6 +1,6 @@
 # ShareXpense
 
-A mobile web app made with reactjs. This app allows users to create a group where they can invite other people to share the expense evenly.
+A mobile web app made with reactjs. This app allows users to create a group where they can invite other people to share an expense evenly.
 
 ## Available Scripts for Deployment
 
