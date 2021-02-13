@@ -1,0 +1,46 @@
+.initial-screen {
+
+}
+
+.logo {
+    border-radius: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 242px;
+    text-align: center;
+}
+
+.logo-p {
+    margin-top: -10px;
+    font-size: 34px;
+    color: #8E8B8B;
+}
+
+.btn {
+    display: block;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+}
+
+.btn-group {
+    position: absolute;
+    display: flex;
+    top: 561px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn--login {
+    background-color: #42DBAC;
+    margin-right: 5px;
+}
+
+.btn--signup {
+    background-color: #504C9D;
+    margin-left: 5px;
+}

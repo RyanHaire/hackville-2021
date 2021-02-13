@@ -1,0 +1,135 @@
+.add-group-container {
+    position: absolute;
+    top: 27px;
+    right: 20px;
+    z-index: 1001;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.add-group-container button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: 13px;
+    color: #707070;
+    display: flex;
+    font-weight: bold;
+}
+
+.add-group-container button:active, 
+.add-group-container button:focus {
+    color: #4F4B9B;
+}
+
+.add-icon {
+    border: 1px solid #707070;
+    color: #4F4B9B;
+    background: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 15px;
+    padding: 7px;
+    height: 15px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.fa-plus {
+    margin-top: .5%;
+    position: absolute;
+    top: 1.2px;
+    left: 1.5px;
+}
+
+.create-group-modal {
+    z-index: 1000;
+    transition: all .5s;
+    top: 120px;
+    transform: translateX(-500px);
+    position: relative;
+}
+
+.create-group-modal-content {
+    z-index: 1001;
+    height: 314px;
+    width: 333px;
+    background: white;
+    border: 5px solid #22979B;
+    border-radius: 30px;
+    position: absolute;
+    top: 89px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.create-group-modal-title {
+    font-size: 16px;
+    color: #707070;
+    text-align: center;
+}
+
+.show-modal {
+    transform: translateY(0);
+}
+
+.create-group-modal-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modal-form-input-title {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #707070;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.modal-form-input-container {
+    margin-bottom: 20px;
+}
+
+.image-upload-preview {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80px;
+}
+
+#image-upload-label {
+    background: #42DBAC;
+    border-radius: 8px;;
+    color: white;
+    padding: 10px;
+}
+
+.modal-form-input-file {
+    display: none;
+}
+
+.modal-form-input-submit {
+    display: block;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 120px;
+    background: #4F4B9B;
+    color: white;
+    border-radius: 30px;
+}
+.modal-form-input-title:active, .modal-form-input-title:focus {
+    border-bottom: 1px solid #707070;
+}
+

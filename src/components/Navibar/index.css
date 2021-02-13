@@ -1,0 +1,43 @@
+.nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 95px;
+    background: #504C9D;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    z-index: 101;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.nav-item {
+    background: white;
+    top: 50%;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item-sm {
+    width: 56px;
+    height: 56px;
+}
+
+.nav-item-lg {
+    width: 73px;
+    height: 73px;
+}

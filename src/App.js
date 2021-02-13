@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import InitialScreen from './screens/InitialScreen'
+import LoginScreen from './screens/LoginScreen'
+import SignUpScreen from './screens/SignUpScreen'
+import HomeScreen from './screens/HomeScreen'
+import GroupScreen from './screens/GroupScreen'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <InitialScreen/>
+        </Route>
+        <Route exact path="/login">
+          <LoginScreen/>
+        </Route>
+        <Route exact path="/sign-up">
+          <SignUpScreen/>
+        </Route>
+        <Route exact path="/home">
+          <HomeScreen/>
+        </Route>
+        <Route exact path="/group">
+          <GroupScreen/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
